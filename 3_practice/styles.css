@@ -1,0 +1,70 @@
+
+.name {
+    padding-left: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(12, 151, 151);
+    background-color: rgb(102, 238, 132);
+    height: 150px;
+    align-items: center;
+    width: 1340px;
+    margin-bottom: 500px;
+    
+    
+}
+
+body {
+    background-image: url("images/abstraktsiia-fon.jpg");
+    background-size: cover;
+}
+
+.pages {
+    padding-left: 100px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(12, 151, 151);
+    background-color: rgb(102, 238, 132);
+    height: 75px;
+    align-items: center;
+    width: 1340px;
+}
+
+h1 {
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+.about-me {
+    font-size: 50px;
+    width: 1240px;
+    padding-left: 100px;
+    text-align: justify;
+}
+
+.signature {
+    display: flex;
+    background-color: rgb(102, 238, 132);
+    width: 1440px;
+    justify-content: space-between;
+}
+
+.signature-image {
+    display: flex;
+    padding-left: 100px;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.signature-text {
+    display: flex;
+    color: rgb(12, 151, 151);
+    padding-right: 100px;
+    height: 150px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: 
+
+}
