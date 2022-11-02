@@ -1,0 +1,139 @@
+
+.header {
+    position: fixed;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 0px;   
+    color: rgb(238, 160, 33);
+    background: radial-gradient( rgba(21, 8, 77, 0.975), rgb(5, 8, 41));
+    z-index: 2;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 50px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.link-1 {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 860px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.link-2 {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 1070px;
+    top: 50px;  
+    font-size: 50px;
+}
+
+.link-3 {
+    position: absolute;
+    height: 40px;
+    right: 50px;
+    top: 50px;
+    font-size: 50px;
+}
+
+.picture-1 {
+    position: absolute;
+    
+    left: 0px;
+    top: 140px;
+    display: flex;
+    background-size: contain;
+    
+}
+
+.text {
+    position: absolute;
+    width: 992px;
+    height: 232px;
+    left: 245px;
+    top: 1000px;
+    padding-left: 50px;
+
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    
+    align-items: center;
+    color: rgb(238, 160, 33);
+    background-color: rgb(3, 8, 23);
+
+    box-sizing: border-box;
+    border: 3px solid #914803;
+    border-radius: 50px;
+}
+
+.picture-2 {
+    display: flex;
+}
+
+.safePal {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 400px;
+    top: 1400px;
+}
+
+.ledger {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 100px;
+    top: 1400px;
+
+}
+
+.trezor {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    left: 1050px;
+    top: 1400px;
+}
+
+.border {
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 2200px;
+    font-size: 50px;
+
+    display: flex;
+    align-items: center;
+    color: rgb(238, 160, 33);
+    background: linear-gradient( rgb(3, 8, 23),rgba(91, 71, 173, 0.975));
+}
+
+.copyright {
+    position: absolute;
+    left: 50px;
+    font-size: 50px;
+    display: flex;
+
+}
+
+.back {
+    position: absolute;
+    right: 50px;
+    font-size: 50px;
+    display: flex;
+}
