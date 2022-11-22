@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+  height: 140px;
+  left: 0px;
+  top: 0px;   
+  color: rgb(238, 160, 33);
+  background: radial-gradient( rgba(21, 8, 77, 0.975), rgb(5, 8, 41));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  height: 40px;
+  font-size: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rectangle {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  border: 3px solid #fecc06;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.text {
+  display: flex;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.border {
+  height: 140px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  color: rgb(238, 160, 33);
+  background: linear-gradient( rgb(3, 8, 23),rgba(91, 71, 173, 0.975));
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.copyright {
+  display: flex;
+  height: 40px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+}
+
+.back {
+  display: flex;
+  height: 40px;
+  font-size: 40px;
+  padding-right: 50px;
+}
+/* Макет для мобильных */
+@media only screen and (max-width 844px) {
+  .page {
+    width: 50%;
+  }
+}
