@@ -26,10 +26,11 @@
 .page {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .rectangle {
-  width: 600px;
+  width: 40%;
   height: 300px;
   display: flex;
   align-items: center;
@@ -38,7 +39,7 @@
   box-sizing: border-box;
   border: 3px solid #fecc06;
   flex-wrap: wrap;
-  margin: 50px;
+  margin: 25px;
 }
 
 .text {
@@ -76,8 +77,8 @@
   padding-right: 50px;
 }
 /* Макет для мобильных */
-@media only screen and (max-width 844px) {
-  .page {
-    width: 50%;
+@media only screen and (max-width: 844px) {
+  .rectangle {
+    width: 100%;
   }
 }
